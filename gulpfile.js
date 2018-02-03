@@ -38,8 +38,7 @@ gulp.task('bs', () => {
 	return browserSync.init({
 		server: {
 			baseDir: './'
-		},
-		middleware: [historyApiFallback()]
+		}
 	});
 });
 
